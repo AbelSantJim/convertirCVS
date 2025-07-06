@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"],
+input[type="file"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+#tablaCSV {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table.tabla-estilo {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+table.tabla-estilo th,
+table.tabla-estilo td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+table.tabla-estilo tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.tabla-estilo th {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+}
+
+#paginacion {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button.boton-pagina {
+  margin: 0 4px;
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.boton-pagina:hover {
+  background-color: #d5d5d5;
+}
+
+button.boton-pagina.activo {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+}

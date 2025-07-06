@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla desde CSV</title>
+  <link href="css/tabla.css" rel="stylesheet">  
+</head>
+<body>
+  <h2>Visualizador de CSV</h2>
+  <label>Número de filas por página:</label>
+  <input type="number" id="numFilas" min="1" value="5">
+  <br><br>
+  <input type="file" id="csvFile" accept=".csv">
+  <div id="tablaCSV"></div>
+  <div id="paginacion"></div>
+
+  <script src="js/CSV.js"></script>
+</body>
+</html>
